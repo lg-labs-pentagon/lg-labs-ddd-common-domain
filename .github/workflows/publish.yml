@@ -1,0 +1,20 @@
+name: Maven Package
+
+on:
+  push:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+      - name: Deploy to GitHub
+        run: mvn --batch-mode -DuseGitHubPackages=true deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.DEPLOY_GITHUB_TOKEN }}
