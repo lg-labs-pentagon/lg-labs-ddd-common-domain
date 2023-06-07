@@ -19,7 +19,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/lg-labs-pentagon/${artifactId}</url>
+      <url>https://maven.pkg.github.com/lg-labs-pentagon/lg-labs-ddd-common-domain</url>
     </repository>
   </distributionManagement>
 

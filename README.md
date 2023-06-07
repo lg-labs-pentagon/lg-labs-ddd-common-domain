@@ -19,7 +19,7 @@ Install 1/2: Add this to pom.xml:
 ```xml
 <dependency>
   <groupId>com.labs.lg.pentagon</groupId>
-  <artifactId>lg-labs-ddd-common-domain</artifactId>
+  <artifactId>ddd-common-domain</artifactId>
   <version>1.0.0-alpha</version>
 </dependency>
 ```
