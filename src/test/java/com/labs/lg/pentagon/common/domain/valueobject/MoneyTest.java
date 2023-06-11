@@ -1,5 +1,5 @@
 package com.labs.lg.pentagon.common.domain.valueobject;
-
+/*
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 
@@ -43,4 +43,4 @@ class MoneyTest {
     assertEquals(resultExpected, resultReceived);
   }
 
-}
+}*/

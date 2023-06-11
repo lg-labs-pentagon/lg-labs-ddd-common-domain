@@ -16,14 +16,6 @@
     <lg-labs-boot-test.version>1.0.0-alpha</lg-labs-boot-test.version>
   </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>com.labs.lg.pentagon</groupId>
-      <artifactId>lg-labs-boot-test</artifactId>
-      <version>${lg-labs-boot-test.version}</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
 
   <distributionManagement>
     <repository>

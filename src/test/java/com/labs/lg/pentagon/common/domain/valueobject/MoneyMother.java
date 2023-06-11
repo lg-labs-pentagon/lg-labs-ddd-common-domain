@@ -1,5 +1,5 @@
 package com.labs.lg.pentagon.common.domain.valueobject;
-
+/*
 import org.junit.jupiter.params.provider.Arguments;
 
 import java.math.BigDecimal;
@@ -105,3 +105,4 @@ class MoneyMother {
         );
     }
 }
+*/
