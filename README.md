@@ -39,6 +39,7 @@ mvn install
 │  └── BaseEntity
 ├── event/
 │  ├── DomainEvent
+│  ├── EmptyEvent
 │  └── publisher/
 ├── exception/
 │  └── DomainException
